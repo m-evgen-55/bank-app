@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Client</title>
+</head>
+
+<body>
+
+<form name="ClientForm" id = "ClientForm">
+    <p>
+        <b>ФИО:</b><br>
+        <output name="name" id = "name">0</output>
+    </p>
+
+    <p>
+        <b>Дата рождения:</b><br>
+        <output name="birthDate" id = "birthDate">0</output>
+    </p>
+
+    <p>
+        <b>Адрес электронной почты:</b><br>
+        <output name="email" id = "email">0</output>
+    </p>
+</form>
+
+<form name="AccountsForm" id = "AccountsForm">
+    <p>
+        <b>Список счетов:</b><br>
+        <output name="accounts">0</output>
+    </p>
+
+    <p style="text-align: left">
+        <button>Создать счет</button>
+</form>
+
+<form name="LoansForm" id = "LoansForm">
+    <p>
+        <b>Список кредитов:</b><br>
+        <output name="loans">0</output>
+    </p>
+
+    <p style="text-align: left">
+        <button>Взять кредит</button>
+</form>
+
+<script src="./../js/getClient.js">
+</script>
+
+</body>
+
+</html>
